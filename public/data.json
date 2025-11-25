@@ -1,0 +1,258 @@
+[
+  {
+    "id": "1",
+    "name": "TechNova Solutions",
+    "logo": "https://i.postimg.cc/qqvRtgXP/technova.png",
+    "location": "New York, USA",
+    "website": "https://technova.com",
+    "industry": "Software Development",
+    "jobs": [
+      {
+        "id": "job-001",
+        "title": "Frontend Developer",
+        "bannerImage": "https://example.com/banners/frontend.png",
+        "location": "Remote",
+        "salary": "$70,000 - $90,000",
+        "jobType": "Full-time",
+        "description": "Build and maintain user-friendly web interfaces.",
+        "requirements": [
+          "Proficient in HTML, CSS, and JavaScript",
+          "Experience with React or Vue.js",
+          "Familiarity with RESTful APIs",
+          "Good understanding of responsive design",
+          "Excellent problem-solving skills"
+        ]
+      },
+      {
+        "id": "job-002",
+        "title": "Backend Developer",
+        "bannerImage": "https://example.com/banners/backend.png",
+        "location": "New York, USA",
+        "salary": "$80,000 - $100,000",
+        "jobType": "Full-time",
+        "description": "Design and maintain server-side application logic.",
+        "requirements": [
+          "Experience with Node.js or Python",
+          "Knowledge of databases (SQL & NoSQL)",
+          "REST API development experience",
+          "Problem-solving and debugging skills",
+          "Understanding of security best practices"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "GreenByte Inc.",
+    "logo": "https://i.postimg.cc/cJGLRFB2/greenbyte.jpg",
+    "location": "San Francisco, USA",
+    "website": "https://greenbyte.com",
+    "industry": "Cloud Computing",
+    "jobs": [
+      {
+        "id": "job-003",
+        "title": "Cloud Engineer",
+        "bannerImage": "https://example.com/banners/cloud.png",
+        "location": "Remote",
+        "salary": "$90,000 - $120,000",
+        "jobType": "Full-time",
+        "description": "Manage and deploy cloud infrastructure for clients.",
+        "requirements": [
+          "Experience with AWS, Azure, or GCP",
+          "Infrastructure as Code knowledge",
+          "Docker & Kubernetes experience",
+          "Strong problem-solving skills",
+          "Good communication skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "FinTech Pro",
+    "logo": "https://i.postimg.cc/NfysZ3Jh/fintech.jpg",
+    "location": "London, UK",
+    "website": "https://fintechpro.com",
+    "industry": "Financial Technology",
+    "jobs": [
+      {
+        "id": "job-004",
+        "title": "Data Analyst",
+        "bannerImage": "https://example.com/banners/data-analyst.png",
+        "location": "London, UK",
+        "salary": "£45,000 - £60,000",
+        "jobType": "Full-time",
+        "description": "Analyze financial data to provide actionable insights.",
+        "requirements": [
+          "Proficient in Excel and SQL",
+          "Experience with Python or R",
+          "Strong analytical skills",
+          "Attention to detail",
+          "Understanding of financial markets"
+        ]
+      },
+      {
+        "id": "job-005",
+        "title": "Business Analyst",
+        "bannerImage": "https://example.com/banners/business-analyst.png",
+        "location": "London, UK",
+        "salary": "£50,000 - £65,000",
+        "jobType": "Full-time",
+        "description": "Gather and interpret business requirements for projects.",
+        "requirements": [
+          "Strong analytical skills",
+          "Experience with business modeling",
+          "Good communication skills",
+          "Problem-solving ability",
+          "Attention to detail"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Creative Minds Agency",
+    "logo": "https://i.postimg.cc/NMfYDS9x/Creative-Minds-Agency.jpg",
+    "location": "Berlin, Germany",
+    "website": "https://creativeminds.agency",
+    "industry": "Digital Marketing",
+    "jobs": [
+      {
+        "id": "job-006",
+        "title": "UI/UX Designer",
+        "bannerImage": "https://example.com/banners/uiux.png",
+        "location": "Berlin, Germany",
+        "salary": "€50,000 - €65,000",
+        "jobType": "Full-time",
+        "description": "Design intuitive and engaging digital experiences.",
+        "requirements": [
+          "Proficient in Figma or Adobe XD",
+          "Understanding of UX principles",
+          "Experience with prototyping",
+          "Creativity and attention to detail",
+          "Good communication skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "HealthTech Labs",
+    "logo": "https://i.postimg.cc/T1B6RPkQ/Health-Tech-Labs.jpg",
+    "location": "Toronto, Canada",
+    "website": "https://healthtechlabs.com",
+    "industry": "Healthcare Technology",
+    "jobs": [
+      {
+        "id": "job-007",
+        "title": "Full Stack Developer",
+        "bannerImage": "https://example.com/banners/fullstack.png",
+        "location": "Remote",
+        "salary": "$75,000 - $95,000",
+        "jobType": "Full-time",
+        "description": "Develop healthcare applications for web and mobile.",
+        "requirements": [
+          "Experience with React and Node.js",
+          "Knowledge of databases",
+          "REST API development experience",
+          "Good debugging skills",
+          "Team collaboration skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "AutoDrive AI",
+    "logo": "https://i.postimg.cc/CxTgXzBX/Auto-Drive-AI.jpg",
+    "location": "Detroit, USA",
+    "website": "https://autodrive.ai",
+    "industry": "Automotive AI",
+    "jobs": [
+      {
+        "id": "job-008",
+        "title": "Machine Learning Engineer",
+        "bannerImage": "https://example.com/banners/ml.png",
+        "location": "Detroit, USA",
+        "salary": "$100,000 - $130,000",
+        "jobType": "Full-time",
+        "description": "Develop AI algorithms for autonomous vehicles.",
+        "requirements": [
+          "Experience with Python and ML frameworks",
+          "Knowledge of computer vision",
+          "Deep learning experience",
+          "Strong math and statistics background",
+          "Problem-solving skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "EcoEnergy Corp",
+    "logo": "https://i.postimg.cc/8cJ2nS1r/Eco-Energy-Corp.png",
+    "location": "Amsterdam, Netherlands",
+    "website": "https://ecoenergy.com",
+    "industry": "Renewable Energy",
+    "jobs": [
+      {
+        "id": "job-009",
+        "title": "Project Manager",
+        "bannerImage": "https://example.com/banners/pm.png",
+        "location": "Amsterdam, Netherlands",
+        "salary": "€55,000 - €70,000",
+        "jobType": "Full-time",
+        "description": "Manage renewable energy projects from start to finish.",
+        "requirements": [
+          "Project management experience",
+          "Excellent communication skills",
+          "Knowledge of energy sector",
+          "Problem-solving skills",
+          "Leadership abilities"
+        ]
+      },
+      {
+        "id": "job-010",
+        "title": "Energy Analyst",
+        "bannerImage": "https://example.com/banners/energy.png",
+        "location": "Amsterdam, Netherlands",
+        "salary": "€50,000 - €65,000",
+        "jobType": "Full-time",
+        "description": "Analyze energy usage and optimize renewable projects.",
+        "requirements": [
+          "Strong analytical skills",
+          "Experience with data modeling",
+          "Attention to detail",
+          "Knowledge of energy markets",
+          "Good communication skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "CyberSecure Ltd",
+    "logo": "https://i.postimg.cc/P5Q5MmVP/Cyber-Secure-Ltd.png",
+    "location": "Singapore",
+    "website": "https://cybersecure.sg",
+    "industry": "Cybersecurity",
+    "jobs": [
+      {
+        "id": "job-011",
+        "title": "Security Analyst",
+        "bannerImage": "https://example.com/banners/security.png",
+        "location": "Singapore",
+        "salary": "SGD 60,000 - 80,000",
+        "jobType": "Full-time",
+        "description": "Protect company systems from security threats.",
+        "requirements": [
+          "Knowledge of cybersecurity tools",
+          "Network security experience",
+          "Incident response skills",
+          "Problem-solving ability",
+          "Attention to detail"
+        ]
+      }
+    ]
+  }
+]
