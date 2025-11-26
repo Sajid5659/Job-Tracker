@@ -9,6 +9,7 @@ import AuthLayout from "../Layouts/AuthLayout";
 import Companies from "../HomeLayout/Companies";
 import PrivateRoute from "../Provider/PrivateRoute";
 import LoadingPage from "../Pages/LoadingPage";
+import Profile from "../Components/Profile";
 
 
 const router = createBrowserRouter([
@@ -63,6 +64,14 @@ const router = createBrowserRouter([
       },
     ]
   },
+  {
+    path: '/profile',
+    element:(
+      <PrivateRoute>
+         <Profile></Profile>
+      </PrivateRoute>
+    )
+  }
 ]);
 
 export default router;

@@ -23,10 +23,12 @@ const Navbar = () => {
     {user ? (
   <>
     <div className='flex gap-5 items-center'>
-      <img className='w-12 rounded-full' src={user.photoURL} alt="" />
-      <button onClick={handleLogOut} className="btn bg-red-600 text-white">
+      <NavLink to='/profile'>
+        <img className='w-12 rounded-full' src={user.photoURL} alt="" />
+      </NavLink>
+      <NavLink to='/auth/login' onClick={handleLogOut} className="btn bg-red-600 text-white">
         Logout
-      </button>
+      </NavLink>
     </div>
   </>
 ): (

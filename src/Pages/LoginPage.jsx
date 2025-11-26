@@ -1,9 +1,10 @@
 import React, { use, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router';
 import { AuthContext } from '../Provider/AuthProvider';
+import { FcGoogle } from "react-icons/fc";
 
 const LoginPage = () => {
-    const {signIn}= use(AuthContext);
+    const {signIn,googleSignIn, setUser}= use(AuthContext);
     const [error, setError] = useState()
     const location = useLocation();
     const navigate = useNavigate();
@@ -28,6 +29,7 @@ const LoginPage = () => {
                 // // ..
             });
     }
+    const handleGoogleLogin = () => { googleSignIn() .then(result => { const user = result.user; setUser(user); navigate("/"); }) .catch(error => console.error(error)); };
 
     return (
   <div className='flex justify-center min-h-screen items-center'>
@@ -46,6 +48,7 @@ const LoginPage = () => {
                         {error && <p className='bg-red-400 text-white text-center p-1'>{error}</p>}
 
                         <button type='submit' className="btn btn-neutral mt-4">Login</button>
+                        <button type="button" onClick={handleGoogleLogin} className="btn btn-outline mt-2" ><FcGoogle size={25} /> Continue with Google </button>
                         <p>Don't have an account? <Link className='text-blue-600 font-semibold' to='/auth/register'>Register</Link></p>
                     </fieldset>
                 </form>
